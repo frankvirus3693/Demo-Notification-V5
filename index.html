@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Notification</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <style>
+        .notification-date {
+            display: block;
+            font-size: 0.85rem;
+            color: gray;
+            margin-top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Demo Notification</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Notification Dropdown -->
+                <div class="dropdown mr-auto"">
+                <button type="button" class="btn btn-light position-relative" id="notificationDropdown" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="assets/image/icon/bell-regular.svg" alt="Notifications" class="notification-icon">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div class="dropdown-menu dropdown-menu-end p-0" aria-labelledby="notificationDropdown">
+                    <!-- Filter -->
+                    <div class="notification-header p-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span>การแจ้งเตือน</span>
+                            <i class="fa fa-cog" aria-hidden="true"></i>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center mb-2">
+                            <button id="showAllNotifications" class="btn btn-sm btn-primary active me-2">ทั้งหมด</button>
+                            <button id="showUnreadNotifications" class="btn btn-sm btn-outline-secondary">ยังไม่ได้อ่าน</button>
+                            <button id="toggleDateFilter" class="btn btn-success ms-auto">ค้นหาตามวัน</button>
+                        </div>
+                        <div class="mt-3" id="dateFilterSection" style="display: none;">
+                            <div class="d-flex justify-content-start align-items-center mt-3 me-3">
+                                <input type="date" id="startDate" class="form-control form-control-sm" placeholder="วันเริ่มต้น">
+                                <input type="date" id="endDate" class="form-control form-control-sm" placeholder="วันสิ้นสุด">
+                                <button id="filterByDate" class="btn btn-sm btn-success ms-2">กรอง</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Container for the notifications -->
+                    <div id="notificationContainer" class="p-0"></div>
+
+                    <div class="text-center py-2">
+                        <a id="showMoreNotifications" href="#" class="text-decoration-none">ดูแจ้งเตือนก่อนหน้า</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="assets/js/notification/showfilterarea.js"></script>
+    <script src="assets/js/notification/show-notifications.js"></script>
+    <script src="assets/js/notification/notification-status.js"></script>
+    <script src="assets/js/notification/notification-data.js"></script>
+    <script src="assets/js/notification/iconchange.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
