@@ -132,7 +132,8 @@ body {
     left: auto;
     right: 0;
     width: 400px; /* ความกว้างของ dropdown */
-    max-height: 700px; /* กำหนดความสูงสูงสุด */
+    max-height: 600px; /* กำหนดความสูงสูงสุด */
+    scrollbar-width: thin;
     overflow-y: auto;
     border: 1px solid #ddd;
     background-color: #fff;

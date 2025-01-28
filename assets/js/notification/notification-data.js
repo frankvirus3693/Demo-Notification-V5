@@ -43,7 +43,7 @@ const notifications = [
     {
         id: 5,
         icon: "assets/image/news/icon/kbank.jpg",
-        title: "Example News 1",
+        title: "Example News 2",
         text: "This is a hidden notification example 1.",
         time: "5 ชั่วโมงที่แล้ว",
         date: "20/01/2025",
@@ -53,7 +53,7 @@ const notifications = [
     {
         id: 6,
         icon: "assets/image/news/icon/kbank.jpg",
-        title: "Example News 1",
+        title: "Example News 3",
         text: "This is a hidden notification example 1.",
         time: "5 ชั่วโมงที่แล้ว",
         date: "20/01/2025",
@@ -63,7 +63,7 @@ const notifications = [
     {
         id: 7,
         icon: "assets/image/news/icon/kbank.jpg",
-        title: "Example News 1",
+        title: "Example News 4",
         text: "This is a hidden notification example 1.",
         time: "5 ชั่วโมงที่แล้ว",
         date: "19/01/2025",
@@ -73,13 +73,135 @@ const notifications = [
     {
         id: 8,
         icon: "assets/image/news/icon/kbank.jpg",
-        title: "Example News 1",
+        title: "Example News 5",
         text: "This is a hidden notification example 1.",
         time: "5 ชั่วโมงที่แล้ว",
         date: "18/01/2025",
         thumbnail: "assets/image/news/img/news4.jpg",
         status: "unread"
-    }
+    },
+    {
+        id: 9,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 6",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 10,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 7",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 11,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 8",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 12,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 9",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 13,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 10",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 14,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 11",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 15,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 12",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 16,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 13",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 17,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 14",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 18,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 15",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 19,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 16",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+    {
+        id: 20,
+        icon: "assets/image/news/icon/kbank.jpg",
+        title: "Example News 17",
+        text: "This is a hidden notification example 1.",
+        time: "5 ชั่วโมงที่แล้ว",
+        date: "18/01/2025",
+        thumbnail: "assets/image/news/img/news4.jpg",
+        status: "unread"
+    },
+
+    
 ];
 
 
@@ -188,45 +310,6 @@ function filterNotifications(filter) {
         }
     });
 }
-
-// Event listener สำหรับปุ่ม "ดูแจ้งเตือนก่อนหน้า"
-document.getElementById("showMoreNotifications").addEventListener("click", (e) => {
-    e.preventDefault(); // ป้องกัน behavior default
-    e.stopPropagation(); // ป้องกัน dropdown menu ปิด
-
-    const currentCount = document.querySelectorAll(".notification-item").length;
-    renderNotifications(0, currentCount + 5); // เพิ่มจำนวนแจ้งเตือนที่แสดงขึ้นทีละ 5
-});
-
-// Event listener สำหรับปุ่ม "ทั้งหมด"
-document.getElementById("showAllNotifications").addEventListener("click", () => {
-    filterNotifications("all");
-});
-
-// Event listener สำหรับปุ่ม "ยังไม่ได้อ่าน"
-document.getElementById("showUnreadNotifications").addEventListener("click", () => {
-    filterNotifications("unread");
-});
-
-// Event listener สำหรับปุ่มกรองตามวันที่
-document.getElementById('filterByDate').addEventListener('click', () => {
-    const startDateStr = document.getElementById('startDate').value;
-    const endDateStr = document.getElementById('endDate').value;
-
-    // หากไม่ได้ระบุวันที่ จะไม่ส่งค่า
-    const startDate = startDateStr ? parseDate(startDateStr.split('-').reverse().join('/')) : null;
-    const endDate = endDateStr ? parseDate(endDateStr.split('-').reverse().join('/')) : null;
-
-    // เรียกฟังก์ชัน filterByDate เพื่อกรองข้อมูล
-    const filteredNotifications = filterByDate(startDate, endDate);
-
-    // แสดงผลการแจ้งเตือน
-    renderNotifications(0, filteredNotifications.length, filteredNotifications);
-});
-
-
-// เรียกฟังก์ชันแสดงผลครั้งแรก (แสดง 5 รายการแรก)
-renderNotifications();
 
 
 // ฟังก์ชันอัปเดตจำนวนการแจ้งเตือน
